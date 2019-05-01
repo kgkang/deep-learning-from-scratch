@@ -33,6 +33,7 @@ def predict(network, x):
 
 
 x, t = get_data()
+print("X type: ", type(x), "t type: ", type(t))
 network = init_network()
 accuracy_cnt = 0
 for i in range(len(x)):
